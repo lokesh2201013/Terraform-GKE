@@ -18,12 +18,12 @@ ngw_name               = "ngw"
 gke_cluster_sg = "gke-sg"
 
 # GKE (Google Kubernetes Engine)
-is_gke_cluster_enabled     = true
+is_gke_cluster_enabled     = false
 cluster_version            = "1.29"
 cluster_name               = "gke-cluster"
 //endpoint_private_access    = true
 //endpoint_public_access     = false
-is_ondemand_node_pool_enabled = true
+is_ondemand_node_pool_enabled = false
 master_password = "9910"
 is_spot_node_pool_enabled = false
 ondemand_instance_type = "e2-medium"
