@@ -18,7 +18,7 @@ ngw_name               = "ngw"
 gke_cluster_sg = "gke-sg"
 
 # GKE (Google Kubernetes Engine)
-is_gke_cluster_enabled     = false
+is_gke_cluster_enabled     = true
 cluster_version            = "1.29"
 cluster_name               = "gke-cluster"
 //endpoint_private_access    = true
