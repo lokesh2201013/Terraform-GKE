@@ -74,7 +74,7 @@ resource "google_compute_firewall" "gke_cluster_sg" {
 
   allow {
     protocol = "tcp"
-    ports    = ["443"]
+    ports    = ["443","22","80"]
   }
 
   source_ranges = ["0.0.0.0/0"]
